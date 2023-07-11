@@ -14,6 +14,9 @@ namespace DewaldtHattinghMixTelSolution
             List<VehiclePositionData> vehiclePositions;
             vehiclePositions =  DataInterpreter.ParseData();
             
+            timer.Stop();
+            Console.WriteLine("Elapsed Time For Data Retrieval: " + timer.ElapsedMilliseconds +"ms");
+            timer.Restart();
             foreach (var geoCoordinate in geoCoordinates)
             {
                 var closestPosition = IdentifyClosestPosition(geoCoordinate, vehiclePositions);
@@ -22,7 +25,7 @@ namespace DewaldtHattinghMixTelSolution
             }
             
             timer.Stop();
-            Console.WriteLine("Elapsed Time: " + timer.ElapsedMilliseconds +"ms");
+            Console.WriteLine("Elapsed Time For Finding Locations: " + timer.ElapsedMilliseconds +"ms");
             Console.WriteLine("Press any key to close the app!");
             Console.ReadKey();
         }
