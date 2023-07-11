@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dewaldthattingh/RiderProjects/DewaldtHattinghMixTelSolution/DewaldtHattinghMixTelSolution/DewaldtHattinghMixTelSolution.csproj": {}
+    "/Users/dewaldthattingh/Code/Rider/DewaldtVehiclePosition/DewaldtHattinghMixTelSolution/DewaldtHattinghMixTelSolution.csproj": {}
   },
   "projects": {
-    "/Users/dewaldthattingh/RiderProjects/DewaldtHattinghMixTelSolution/DewaldtHattinghMixTelSolution/DewaldtHattinghMixTelSolution.csproj": {
+    "/Users/dewaldthattingh/Code/Rider/DewaldtVehiclePosition/DewaldtHattinghMixTelSolution/DewaldtHattinghMixTelSolution.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dewaldthattingh/RiderProjects/DewaldtHattinghMixTelSolution/DewaldtHattinghMixTelSolution/DewaldtHattinghMixTelSolution.csproj",
+        "projectUniqueName": "/Users/dewaldthattingh/Code/Rider/DewaldtVehiclePosition/DewaldtHattinghMixTelSolution/DewaldtHattinghMixTelSolution.csproj",
         "projectName": "DewaldtHattinghMixTelSolution",
-        "projectPath": "/Users/dewaldthattingh/RiderProjects/DewaldtHattinghMixTelSolution/DewaldtHattinghMixTelSolution/DewaldtHattinghMixTelSolution.csproj",
+        "projectPath": "/Users/dewaldthattingh/Code/Rider/DewaldtVehiclePosition/DewaldtHattinghMixTelSolution/DewaldtHattinghMixTelSolution.csproj",
         "packagesPath": "/Users/dewaldthattingh/.nuget/packages/",
-        "outputPath": "/Users/dewaldthattingh/RiderProjects/DewaldtHattinghMixTelSolution/DewaldtHattinghMixTelSolution/obj/",
+        "outputPath": "/Users/dewaldthattingh/Code/Rider/DewaldtVehiclePosition/DewaldtHattinghMixTelSolution/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dewaldthattingh/.nuget/NuGet/NuGet.Config"

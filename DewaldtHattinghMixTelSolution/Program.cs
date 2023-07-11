@@ -6,18 +6,21 @@ namespace DewaldtHattinghMixTelSolution
     {
         private static void Main()
         {
+            
             Stopwatch timer = new Stopwatch();
             
             timer.Start();
             var geoCoordinates = ObtainLookupCoordinates();
-            var vehiclePositions = DataInterpreter.ParseData();
-             
+            List<VehiclePositionData> vehiclePositions;
+            vehiclePositions =  DataInterpreter.ParseData();
+            
             foreach (var geoCoordinate in geoCoordinates)
             {
                 var closestPosition = IdentifyClosestPosition(geoCoordinate, vehiclePositions);
                 Console.WriteLine(
                     $"Closest position to {geoCoordinate.Latitude}, {geoCoordinate.Longitude} is {closestPosition}");
             }
+            
             timer.Stop();
             Console.WriteLine("Elapsed Time: " + timer.ElapsedMilliseconds +"ms");
             Console.WriteLine("Press any key to close the app!");
